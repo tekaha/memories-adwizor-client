@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50061ac3-7652-4506-86e7-c0feb5af9f6d/deploy-status)](https://app.netlify.com/sites/memories-adwizor/deploys)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
