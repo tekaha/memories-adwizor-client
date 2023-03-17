@@ -30,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+	"deploy-to-aws-s3": "aws s3 rm s3://memories.discworld.me --recursive && aws s3 cp dist s3://memories.discworld.me --recursive && aws cloudfront create-invalidation --distribution-id E11XSV8FLBSY9D --paths \"/*\"",
   },
   "eslintConfig": {
     "extends": [
